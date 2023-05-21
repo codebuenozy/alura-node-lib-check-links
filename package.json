@@ -1,0 +1,22 @@
+{
+  "name": "alura-node-lib-md",
+  "version": "1.0.0",
+  "description": "Projeto primeira lib com Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "alura",
+    "projeto",
+    "npm"
+  ],
+  "author": "Fernando Bueno",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0"
+  }
+}
