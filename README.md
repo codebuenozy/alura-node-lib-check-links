@@ -6,4 +6,4 @@ Projeto realizado durante as aulas de *Nodejs: Criando sua Primeira Biblioteca*,
 
 Realize sua instalação preferencialmente de forma global para que possa ser acessada de qualquer pasta, utilize o comando `npm install check-links -g` 
 
-Para utilizar, terminal use `check-links ./caminho/do/arquivo.md -- --valida` o caminho pode ser somente do diretório ou o caminho do arquivo especifico.
+Para utilizar, no terminal, use o comando `check-links ./caminho/do/arquivo.md` para extrair os links dos arquivo, ou o comando `check-links ./caminho/do/arquivo.md -- --valida` com a flag `--valida` para extrair e exibir o status code do link para validação, o caminho especificado pode ser somente do diretório `./diretorio` ou o caminho contendo o arquivo especifico `./diretorio/arquivo.md`.
