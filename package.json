@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codebuenozy/alura-node-lib-check-links-md.git"
+    "url": "git+https://github.com/codebuenozy/projeto-node-lib-check-links-md.git"
   },
   "keywords": [
     "nodejs",
@@ -28,12 +28,12 @@
   ],
   "author": "Fernando Bueno",
   "license": "ISC",
-  "homepage": "https://github.com/codebuenozy/alura-node-lib-check-links-md#readme",
+  "homepage": "https://github.com/codebuenozy/projeto-node-lib-check-links-md#readme",
   "dependencies": {
     "chalk": "^5.2.0"
   },
   "bugs": {
-    "url" : "https://github.com/codebuenozy/alura-node-lib-check-links-md/issues",
+    "url" : "https://github.com/codebuenozy/projeto-node-lib-check-links-md/issues",
     "email" : "nando_silverz@hotmail.com"
   }
 }
