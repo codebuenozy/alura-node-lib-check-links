@@ -1,16 +1,21 @@
 {
-  "name": "node-lib-md",
+  "name": "check-links",
   "version": "1.0.0",
   "description": "Projeto primeira lib com Node.js, sua principal função é percorrer arquivos.md, retornar e testar os links encontrados",
-  "main": "index.js",
+  "main": "./cli.js",
   "type": "module",
+  "bin": {
+    "check-links": "./cli.js"
+  },
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cli": "node ./src/cli.js"
+    "cli": "node ./src/cli.js",
+    "cli:valida": "node ./src/cli.js ./arquivos/ --valida"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codebuenozy/alura-node-lib-md.git"
+    "url": "git+https://github.com/codebuenozy/alura-node-lib-check-links.git"
   },
   "keywords": [
     "nodejs",
@@ -18,11 +23,17 @@
     "alura",
     "projeto",
     "npm",
-    "md"
+    "markdown",
+    "URL"
   ],
   "author": "Fernando Bueno",
   "license": "ISC",
+  "homepage": "https://github.com/codebuenozy/alura-node-lib-check-links#readme",
   "dependencies": {
     "chalk": "^5.2.0"
+  },
+  "bugs": {
+    "url" : "https://github.com/codebuenozy/alura-node-lib-check-links/issues",
+    "email" : "nando_silverz@hotmail.com"
   }
 }
