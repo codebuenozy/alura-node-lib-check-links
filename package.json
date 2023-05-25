@@ -1,6 +1,6 @@
 {
   "name": "check-links-md",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Projeto primeira lib com Node.js, sua principal função é percorrer arquivos.md, retornar e testar os links encontrados",
   "main": "./src/cli.js",
   "type": "module",
@@ -33,7 +33,7 @@
     "chalk": "^5.2.0"
   },
   "bugs": {
-    "url" : "https://github.com/codebuenozy/projeto-node-lib-check-links-md/issues",
-    "email" : "nando_silverz@hotmail.com"
+    "url": "https://github.com/codebuenozy/projeto-node-lib-check-links-md/issues",
+    "email": "nando_silverz@hotmail.com"
   }
 }
