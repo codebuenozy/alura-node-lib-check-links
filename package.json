@@ -2,10 +2,10 @@
   "name": "check-links-md",
   "version": "1.0.0",
   "description": "Projeto primeira lib com Node.js, sua principal função é percorrer arquivos.md, retornar e testar os links encontrados",
-  "main": "./cli.js",
+  "main": "./src/cli.js",
   "type": "module",
   "bin": {
-    "check-links": "./cli.js"
+    "check-links": "./src/cli.js"
   },
   "preferGlobal": true,
   "scripts": {
